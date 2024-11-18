@@ -30,11 +30,11 @@ await session.play('capture');
 
 await session.applyLens(lens);
 
-document.getElementsByClassName('snap-button').onclick = function(){resetLens()};
+// document.getElementsByClassName('snap-button').onclick = function(){resetLens()};
 
-function resetLens() {
-  session.applyLens(lens);
-}
+// function resetLens() {
+//   session.applyLens(lens);
+// }
 
 // if (applyLens(lens) != false) {
 //   document.getElementById("playbtn").style.visibility = "visible";
