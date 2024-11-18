@@ -2,7 +2,7 @@ import { bootstrapCameraKit, createMediaStreamSource, Transform2D, } from '@snap
 
 (async function () {
   const cameraKit = await bootstrapCameraKit({ 
-    apiToken: 'eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzMxOTI0MDI3LCJzdWIiOiI2Yjk4Y2I0OC1hNDdhLTRiYTMtOGM2Zi1mYjFhM2MwZjc4MDN-U1RBR0lOR34zYmU1YWNhMS02ODBlLTRlN2YtYWEwYS0wOWQ1N2I4NmM2YjgifQ.Sm43EKBLfZl6ktjMAjmGsHEC5UQ-tVlRiCgbAdIkgZE' });
+    apiToken: 'eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzMxOTI0MDI3LCJzdWIiOiI2Yjk4Y2I0OC1hNDdhLTRiYTMtOGM2Zi1mYjFhM2MwZjc4MDN-UFJPRFVDVElPTn4zYmU2NGFkNC0xMDFkLTQ2YTktODY2Ny04Yzg1YWNmOWZmN2UifQ._iynqI8AzSbl1eLDdupxdqjrQH-RpPQO-p-gSgIhqB4' });
 
 const session = await cameraKit.createSession();
 

@@ -10,6 +10,12 @@ module.exports = {
     minimize: false
   },
   devServer: {
+    // host: 'my-project.dev',
+    // https: {
+    //     key: fs.readFileSync('./my-project.dev-key.pem'),
+    //     cert: fs.readFileSync('./my-project.dev.pem'),
+    //     ca: fs.readFileSync('C:/Users/limex/AppData/Local/mkcert/rootCA.pem')
+    // },
     static: {
       directory: path.join(__dirname, 'docs'),
     },
@@ -18,5 +24,7 @@ module.exports = {
     },
     compress: true,
     port: 9000,
+    
   },
+  
 };
